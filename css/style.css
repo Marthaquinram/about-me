@@ -1,9 +1,41 @@
-h1{
-  font-size: 4rem;
+h1 {
+  font-size: 2rem;
+  float: center;
+  margin-left: 30px;
+  margin-right: 50px;
+} 
+body {
+  background-image: linear-gradient( rgb(230, 163, 204), rgb(188, 128, 231), rgb(159, 221, 230));
+  background-attachment: fixed;
+  padding: 0px;
+  margin: 40px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-ul{
-  list-style: disc;
-  Margin: 1rem;
-  padding: 1rem;
+nav li {
+  display: inline-block;
+  font-size: 20;
+  padding: 20; 
+  
+  
 }
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+
+ ul {
+  padding: 0px;
+  margin: 40px;
+
+
+/* li {
+  list-style: none;
+  width: 80%; */
+  /* float: left; */
+  /* padding: 0px;
+  margin: 10px;
+} */ 
