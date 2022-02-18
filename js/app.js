@@ -30,7 +30,8 @@ if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
 }
 
 
-let doILikeAlpacas = prompt('Do I like Alpacas? Hint: Yes or No ').toLowerCase();
+
+let doILikeAlpacas = prompt('Do I like alpacas? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeAlpacas === 'yes') || (doILikeAlpacas === 'y')) {
   alert('Is it that obvious? They\'re one of my favorite animals, If I ever get to own one, I would name it Chewpaca! Get it? ');
@@ -57,7 +58,7 @@ if ((doILikeToDance === 'yes') || (doILikeToDance === 'y')) {
 
   console.log('BATTLE ME!');
 
-  alert('Dancing is a big part of my life!');
+  alert('Dancing is a big part of my life! BATTLE ME!!');
 
 }
 
