@@ -2,7 +2,7 @@
 
 console.log('Hi');
 
-alert('Welcome to my About Me page ! ');
+alert('Welcome to my about me page! :) ');
 
 let username = prompt('What is your name?');
 
