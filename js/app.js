@@ -91,3 +91,20 @@ if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
   
   alert('Even though I don\'t do makeup that often, I still enjoy it.');
 }
+
+let myTattoos = 4;
+let attempts = 4;
+for (let i = 0; i < attempts; i++) {
+  console.log(`Hello from loop ${i}`);
+  let tattoosGuess = prompt('How many tattoos do I have? ');
+  console.log(`You guessed ${tattoosGuess}`);
+  if (tattoosGuess == myTattoos) {
+    console.log('You are correct! WOOH!');
+    break;
+  } else if(tattoosGuess > myTattoos){
+    console.log('Too high my friend!');
+  } else if(tattoosGuess < myTattoos){
+    console.log('Too low, oh nooo!');
+  } 
+}
+console.log('The correct answer is 4');

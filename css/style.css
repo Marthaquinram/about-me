@@ -49,3 +49,30 @@ img {
   width: 400px;
   height: 400px;
 }
+
+
+
+li {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 2;
+  list-style-type: number;
+  text-align: left;
+  
+  
+
+}
+
+.columns{
+  float: left;
+  position: relative;
+  margin-right: 20px;
+ 
+}
+div.class {
+  text-align:left;
+  
+}
+div.id {
+  text-align:center;
+}
