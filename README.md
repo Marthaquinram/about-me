@@ -11,5 +11,4 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 * Any Links you used as reference
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Sarah was a driver and Martha was the navigator.We worked on adding functions to Martha's code.

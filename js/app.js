@@ -11,7 +11,7 @@ let score = 0;
 
 // console.log('Nice to meet you ' + username);
 
-
+function sportQuestion() {
 let doILikeSoccer = prompt('Do I like soccer? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
@@ -30,6 +30,8 @@ if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
   console.log('Yes, who doesn\'t like soccer?!'); 
 
 }
+}
+sportQuestion();
 
 
 
