@@ -11,6 +11,8 @@ let score = 0;
 
 // console.log('Nice to meet you ' + username);
 
+// Question 1
+
 function sportQuestion() {
 let doILikeSoccer = prompt('Do I like soccer? Hint: Yes or No ').toLowerCase();
 
@@ -33,6 +35,7 @@ if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
 }
 sportQuestion();
 
+// Question 2
 
 function favouriteAnimal() {
 let doILikeAlpacas = prompt('Do I like alpacas? Hint: Yes or No ').toLowerCase();
@@ -54,6 +57,7 @@ if ((doILikeAlpacas === 'yes') || (doILikeAlpacas === 'y')) {
 favouriteAnimal();
 
 
+// Question 3
 
 function danceQuestion(){
 let doILikeToDance = prompt('Do I like to dance? Hint: Yes or No').toLowerCase();
@@ -74,6 +78,7 @@ if ((doILikeToDance === 'yes') || (doILikeToDance === 'y')) {
 danceQuestion();
 
 
+// Question 4
 
 function workOut(){
 let doILikeWorkingOut = prompt('Do I enjoy working out? Hint: Yes or No ').toLowerCase();
@@ -94,6 +99,8 @@ if ((doILikeWorkingOut === 'yes') || (doILikeWorkingOut ==='y')) {
 workOut();
 
 
+// Question 5
+
 function makeupQuestion(){
 let doILikeMakeup = prompt('Do I like doing makeup? Hint: Yes or No ').toLowerCase();
 
@@ -111,6 +118,7 @@ if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
 }
 makeupQuestion();
 
+// Question 6
 
 function howManyTattoos(){
 let myTattoos = 4;
@@ -133,9 +141,10 @@ for (let i = 0; i < attempts; i++) {
 } console.log('The correct answer is 4');
 }
 howManyTattoos();
-// let guessPlayer = prompt('Who is my favorite player?');
-// console.log(guessPlayer);
 
+//Question 7
+
+function soccerTeam(){
 let arsenalPlayers = ['bellerin', 'saka', 'smithrowe', 'odegarrd'];
 let guessesRemaining = 6;
 let victory = false;
@@ -155,5 +164,6 @@ while (guessesRemaining && !victory){
   console.log('You have '+ guessesRemaining);
   // this is referring to guesses remaining
 }
-
+}
+soccerTeam();
 alert('You got ' + score + ' out of 7! ');
