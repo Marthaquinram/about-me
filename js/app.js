@@ -11,7 +11,9 @@ let score = 0;
 
 // console.log('Nice to meet you ' + username);
 
+// Question 1
 
+function sportQuestion() {
 let doILikeSoccer = prompt('Do I like soccer? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
@@ -30,9 +32,12 @@ if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
   console.log('Yes, who doesn\'t like soccer?!'); 
 
 }
+}
+sportQuestion();
 
+// Question 2
 
-
+function favouriteAnimal() {
 let doILikeAlpacas = prompt('Do I like alpacas? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeAlpacas === 'yes') || (doILikeAlpacas === 'y')) {
@@ -48,8 +53,13 @@ if ((doILikeAlpacas === 'yes') || (doILikeAlpacas === 'y')) {
   alert('Sorry to break it to you BUT wrong, I love alpacas!');
 
 }
+}
+favouriteAnimal();
 
 
+// Question 3
+
+function danceQuestion(){
 let doILikeToDance = prompt('Do I like to dance? Hint: Yes or No').toLowerCase();
 
 if ((doILikeToDance === 'yes') || (doILikeToDance === 'y')) {
@@ -64,9 +74,13 @@ if ((doILikeToDance === 'yes') || (doILikeToDance === 'y')) {
   alert('Dancing is a big part of my life! BATTLE ME!!');
 
 }
+}
+danceQuestion();
 
 
+// Question 4
 
+function workOut(){
 let doILikeWorkingOut = prompt('Do I enjoy working out? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeWorkingOut === 'yes') || (doILikeWorkingOut ==='y')) {
@@ -81,7 +95,13 @@ if ((doILikeWorkingOut === 'yes') || (doILikeWorkingOut ==='y')) {
   alert('No is correct, I like the work out I get in dance and soccer but Im not a fan of going to a gym and lifting weights!!');
 
 }
+}
+workOut();
 
+
+// Question 5
+
+function makeupQuestion(){
 let doILikeMakeup = prompt('Do I like doing makeup? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
@@ -95,7 +115,12 @@ if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
   
   alert('Even though I don\'t do makeup that often, I still enjoy it.');
 }
+}
+makeupQuestion();
 
+// Question 6
+
+function howManyTattoos(){
 let myTattoos = 4;
 let attempts = 4;
 for (let i = 0; i < attempts; i++) {
@@ -114,8 +139,12 @@ for (let i = 0; i < attempts; i++) {
 
   }
 } console.log('The correct answer is 4');
-// let guessPlayer = prompt('Who is my favorite player?');
-// console.log(guessPlayer);
+}
+howManyTattoos();
+
+//Question 7
+
+function soccerTeam(){
 let arsenalPlayers = ['bellerin', 'saka', 'smithrowe', 'odegarrd'];
 let guessesRemaining = 6;
 let victory = false;
@@ -135,5 +164,6 @@ while (guessesRemaining && !victory){
   console.log('You have '+ guessesRemaining);
   // this is referring to guesses remaining
 }
-
+}
+soccerTeam();
 alert('You got ' + score + ' out of 7! ');
