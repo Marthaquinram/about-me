@@ -94,7 +94,7 @@ if ((doILikeWorkingOut === 'yes') || (doILikeWorkingOut ==='y')) {
 workOut();
 
 
-
+function makeupQuestion(){
 let doILikeMakeup = prompt('Do I like doing makeup? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
@@ -108,6 +108,10 @@ if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
   
   alert('Even though I don\'t do makeup that often, I still enjoy it.');
 }
+}
+makeupQuestion();
+
+
 
 let myTattoos = 4;
 let attempts = 4;
