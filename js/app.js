@@ -55,7 +55,7 @@ favouriteAnimal();
 
 
 
-
+function danceQuestion(){
 let doILikeToDance = prompt('Do I like to dance? Hint: Yes or No').toLowerCase();
 
 if ((doILikeToDance === 'yes') || (doILikeToDance === 'y')) {
@@ -70,6 +70,9 @@ if ((doILikeToDance === 'yes') || (doILikeToDance === 'y')) {
   alert('Dancing is a big part of my life! BATTLE ME!!');
 
 }
+}
+danceQuestion();
+
 
 
 
