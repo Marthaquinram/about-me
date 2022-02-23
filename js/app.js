@@ -34,7 +34,7 @@ if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
 sportQuestion();
 
 
-
+function favouriteAnimal() {
 let doILikeAlpacas = prompt('Do I like alpacas? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeAlpacas === 'yes') || (doILikeAlpacas === 'y')) {
@@ -50,6 +50,10 @@ if ((doILikeAlpacas === 'yes') || (doILikeAlpacas === 'y')) {
   alert('Sorry to break it to you BUT wrong, I love alpacas!');
 
 }
+}
+favouriteAnimal();
+
+
 
 
 let doILikeToDance = prompt('Do I like to dance? Hint: Yes or No').toLowerCase();
