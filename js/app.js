@@ -112,7 +112,7 @@ if ((doILikeMakeup === 'yes') || (doILikeMakeup === 'y')) {
 makeupQuestion();
 
 
-
+function howManyTattoos(){
 let myTattoos = 4;
 let attempts = 4;
 for (let i = 0; i < attempts; i++) {
@@ -131,8 +131,11 @@ for (let i = 0; i < attempts; i++) {
 
   }
 } console.log('The correct answer is 4');
+}
+howManyTattoos();
 // let guessPlayer = prompt('Who is my favorite player?');
 // console.log(guessPlayer);
+
 let arsenalPlayers = ['bellerin', 'saka', 'smithrowe', 'odegarrd'];
 let guessesRemaining = 6;
 let victory = false;
