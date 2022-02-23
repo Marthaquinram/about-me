@@ -75,7 +75,7 @@ danceQuestion();
 
 
 
-
+function workOut(){
 let doILikeWorkingOut = prompt('Do I enjoy working out? Hint: Yes or No ').toLowerCase();
 
 if ((doILikeWorkingOut === 'yes') || (doILikeWorkingOut ==='y')) {
@@ -90,6 +90,10 @@ if ((doILikeWorkingOut === 'yes') || (doILikeWorkingOut ==='y')) {
   alert('No is correct, I like the work out I get in dance and soccer but Im not a fan of going to a gym and lifting weights!!');
 
 }
+}
+workOut();
+
+
 
 let doILikeMakeup = prompt('Do I like doing makeup? Hint: Yes or No ').toLowerCase();
 
