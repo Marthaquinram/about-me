@@ -34,7 +34,7 @@ function sportQuestion() {
 
   }
 }
-sportQuestion();
+
 
 // Question 2
 
@@ -56,7 +56,7 @@ function favouriteAnimal() {
 
   }
 }
-favouriteAnimal();
+
 
 
 // Question 3
@@ -78,7 +78,7 @@ function danceQuestion(){
 
   }
 }
-danceQuestion();
+
 
 
 // Question 4
@@ -100,7 +100,7 @@ function workOut(){
 
   }
 }
-workOut();
+
 
 
 // Question 5
@@ -121,7 +121,7 @@ function makeupQuestion(){
     alert('Even though I don\'t do makeup that often, I still enjoy it.');
   }
 }
-makeupQuestion();
+
 
 // Question 6
 
@@ -149,7 +149,7 @@ function howManyTattoos(){
     }
   } console.log('The correct answer is 4');
 }
-howManyTattoos();
+
 
 //Question 7
 
@@ -198,6 +198,12 @@ function soccerTeam(){
     }
   }
 }
+sportQuestion();
+favouriteAnimal();
+danceQuestion();
+workOut();
+makeupQuestion();
+howManyTattoos();
 soccerTeam();
 alert(`You got ${score} out of ${numberOfQuestions}`);
 //this is telling the user their score out of how many questions there are.
