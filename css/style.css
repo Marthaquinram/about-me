@@ -1,9 +1,22 @@
+section {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
 h1 {
   font-size: 2rem;
   float: center;
   margin-left: 30px;
   margin-right: 50px;
-} 
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
 body {
   background-image: linear-gradient( rgb(230, 163, 204), rgb(188, 128, 231), rgb(159, 221, 230));
   background-attachment: fixed;
@@ -15,7 +28,6 @@ body {
 div.gallery {
   margin: 10px;
   border: 0px solid #ccc;
-  /* float:center; */
   width: 100%;
 
 }
@@ -24,11 +36,6 @@ div.gallery {
 div.gallery img {
   width: 20%;
   height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
 }
 
 .nav {
@@ -52,27 +59,11 @@ img {
 
 
 
-li {
-  columns: 3;
-  -webkit-columns: 3;
-  -moz-columns: 2;
+ li {
   list-style-type: number;
   text-align: left;
-  
-  
+  margin-left: 4rem;
+  padding-left: 1rem;
+} 
 
-}
-
-.columns{
-  float: left;
-  position: relative;
-  margin-right: 20px;
  
-}
-div.class {
-  text-align:left;
-  
-}
-div.id {
-  text-align:center;
-}
