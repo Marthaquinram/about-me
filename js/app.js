@@ -1,6 +1,6 @@
 'use strict';
 
-console.log('Hi');
+
 
 alert('Welcome to my about me page! :) ');
 
@@ -10,7 +10,7 @@ alert('Hello ' + username + '!');
 let score = 0;
 let numberOfQuestions = 0;
 
-console.log('Nice to meet you ' + username);
+
 
 
 
@@ -20,19 +20,11 @@ function sportQuestion() {
   if ((doILikeSoccer === 'yes') || (doILikeSoccer === 'y')) {
     alert('Yes! You got it right! One of my favorite teams is from the English Premier League called Arsenal FC! ');
     score++;
-
-
-
-  } else if ((doILikeSoccer === 'no') || (doILikeSoccer ==='n')) {
-
-    console.log('Im a die hard fan!');
-
-    alert('Jokes on you, I LOVE soccer, my brother, dad and I all played soccer together!!');
-
-  } else {
-    console.log('Yes, who doesn\'t like soccer?!');
-
   }
+  else if ((doILikeSoccer === 'no') || (doILikeSoccer ==='n')) {
+    alert('Jokes on you, I LOVE soccer, my brother, dad and I all played soccer together!!');
+  }
+
 }
 
 
@@ -50,7 +42,7 @@ function favouriteAnimal() {
 
   } else if ((doILikeAlpacas === 'no') || (doILikeAlpacas === 'n')) {
 
-    console.log('Alpacas are so fluffy, Im gonna die!!');
+
 
     alert('Sorry to break it to you BUT wrong, I love alpacas!');
 
@@ -69,7 +61,7 @@ function danceQuestion(){
 
   } else if ((doILikeToDance === 'no') || (doILikeToDance ==='n')) {
 
-    console.log('BATTLE ME!');
+
 
     alert('Dancing is a big part of my life! BATTLE ME!!');
 
@@ -89,7 +81,7 @@ function workOut(){
 
   } else if ((doILikeWorkingOut === 'no') || (doILikeWorkingOut ==='n')) {
     score++;
-    console.log('No gym for me!');
+
 
     alert('No is correct, I like the work out I get in dance and soccer but Im not a fan of going to a gym and lifting weights!!');
 
@@ -108,7 +100,7 @@ function makeupQuestion(){
     alert('Another obvious one right? I was a makeup artist for a couple of years and I enjoyed it while it lasted!');
 
   } else if ((doILikeMakeup === 'no') || (doILikeMakeup === 'n')) {
-    console.log('I enjoy the natural look these days.');
+
     score++;
     alert('Even though I don\'t do makeup that often, I still enjoy it.');
   }
@@ -125,7 +117,7 @@ function howManyTattoos(){
 
     let tattoosGuess = prompt('How many tattoos do I have? ');
     tattoosGuess = parseInt(tattoosGuess);
-    console.log(`You guessed ${tattoosGuess}`);
+
     if (tattoosGuess === myTattoos) {
 
       alert('Woohoo! You guessed correct!');
@@ -139,7 +131,7 @@ function howManyTattoos(){
       alert('Too low, oh noooo!');
 
     }
-  } console.log('The correct answer is 4');
+  }
 }
 
 
@@ -181,7 +173,7 @@ function soccerTeam(){
 
       alert('Thats incorrect!');
     }
-    console.log(`You have ${guessesRemaining}`);
+
 
     if (guessesRemaining === 0 && guessCorrectly === false){
 
